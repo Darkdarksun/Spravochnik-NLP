@@ -17,12 +17,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     Sprav.cpp \
-    main.cpp \
-    mainwindow.cpp
+    main.cpp
 
 HEADERS += \
-    Sprav.h \
-    mainwindow.h
+    Sprav.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
