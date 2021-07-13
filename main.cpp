@@ -1,16 +1,13 @@
-#include <QGraphicsScene>
-#include <QGraphicsView>
+#include "mainwindow.h"
+
 #include <QApplication>
 
-#include "Sprav.h"
 
-Sprav * nlp;
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
-    nlp = new Sprav();
-    nlp->show();
-
+    MainWindow w;
+    w.show();
     return a.exec();
 }
+
