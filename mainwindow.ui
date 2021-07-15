@@ -7,45 +7,25 @@
     <x>0</x>
     <y>0</y>
     <width>1920</width>
-    <height>1123</height>
+    <height>1080</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pB1">
-    <property name="geometry">
-     <rect>
-      <x>11</x>
-      <y>11</y>
-      <width>80</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pB2">
-    <property name="geometry">
-     <rect>
-      <x>11</x>
-      <y>43</y>
-      <width>80</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>425</x>
       <y>20</y>
-      <width>1071</width>
+      <width>1070</width>
       <height>950</height>
      </rect>
     </property>
@@ -57,20 +37,935 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>1052</width>
-       <height>2361</height>
+       <width>4499</width>
+       <height>8287</height>
       </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>127</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>170</red>
+           <green>170</green>
+           <blue>170</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="PlaceholderText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="128">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>127</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>170</red>
+           <green>170</green>
+           <blue>170</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="PlaceholderText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="128">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>127</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Midlight">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Dark">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>127</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Mid">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>170</red>
+           <green>170</green>
+           <blue>170</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Text">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>127</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="BrightText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>127</red>
+           <green>127</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Shadow">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="AlternateBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipBase">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>220</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ToolTipText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="PlaceholderText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="128">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
      </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a name=&quot;_Toc71230092&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:16pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:16pt; font-weight:600;&quot;&gt;.Понятие об управляемых объектах&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Рассмотрим прямолинейное движение автомобиля. В каждый момент времени состояние авт-&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;омобиля характеризуется двумя числами: пройденным расстоянием &lt;/span&gt;&lt;a name=&quot;_x0000_t75&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;и&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; скоростью &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; Эти две ве-&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;личины меняются с течением времени, но не самопроизвольно, а сообразно воле водителя, ко-&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;торый может по своему желанию управлять работой двигателя, уменьшая или увеличивая раз-&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;виваемую этим двигателем силу&lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Таким образом, мы имеем три связанных между собой параметра: &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;п&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;оказанных на рис. 1.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/im1.jpg&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Величины &lt;/span&gt;&lt;a name=&quot;_x0000_t75&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;и&lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; характеризующие состояние автомобиля, называют фазовыми &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;координатами, а величину &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;—&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; управляющим параметром. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Если мы будем рассматривать движение по плоскости, а не по прямой, то фазовых &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;координат будет четыре (две «географические» координаты и две компоненты скорости),&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;а управляющих параметров два (сила тяги двигателя и угол поворота руля). &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;У летящего самолёта можно рассматривать 6 фазовых координат (три пространственные&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;и три компоненты скорости) и несколько управляющих параметров: тяга двигателя, величины,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;характеризующие направление рулей высоты и направления.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;В электрическом утюге с терморегулятором фазовыми координатами будут сила тока и&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;температура нагрева, а управляющим параметром — два положения регулятора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Сказанное выше делает естественным следующее математическое описание управляемого&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;объекта: состояние объекта задаётся (в каждый момент времени) &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;ч&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;ислами &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;к&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;оторые называются&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;фазовыми координатами.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Движение объекта заключается, с математической точки зрения, в том, что его состояние с&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;течением времени изменяется, т.е.&lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;я&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;вляются переменными величинами (функциями времени). Это&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;движение объекта происходит не самопроизвольно, им можно управлять. Объект снабжён «рулями»,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;положение которых в каждый момент времени характеризуется &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;ч&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;ислами &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; Эти числа называются&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;управляющими­­ параметрами.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Рулями можно «манипулировать», т.е. по своему желанию менять параметры &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;с&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; течением&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;времени. Что касается &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;т&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;о они не в полной мере зависят от нашего желания. Мы будем&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;предполагать, что, зная фазовые состояния объекта в начальный момент времени &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;и&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; выбрав&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;направляющие функции &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;для &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;, мы сможем математически точно рассчитать поведение объекта&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;для всех &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; То есть сможем найти функции &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; характеризующие изменение фазовых координат с&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;течением времени.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Величины &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;у&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;добно считать координатами некоторого вектора &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; который также называют&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;управляющим вектором, а &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;—&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; точкой &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;мерного пространства с координатами &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Это &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;мерное пространство, в котором в виде точек изображаются фазовые состояния объекта,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;называется фазовым пространством.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Чтобы полностью задать движение объекта, надо задать его фазовое состояние в начальный&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;момент времени &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;и&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; выбрать управляющие функции &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;д&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;ля &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;выбрать некоторую функцию&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Э&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;ту функцию &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;б&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;удем называть управлением. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Задание начального фазового состояния &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;и&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt; управления &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;о&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;днозначно определяет дальнейшее движение&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;объекта. Это движениезаключаетсявтом,что фазовая точка &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;и&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;зображающая состояние объекта с&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;течением времени, перемещается, описывая в фазовом пространстве некоторую линию, называемую&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;фазовой траекторией рассматриваемого движения объекта.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;Пару векторных функций &lt;/span&gt;&lt;a name=&quot;_x0000_i1025&quot;/&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;н&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:14pt;&quot;&gt;азывают процессом управления или просто — процессом. &lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;2&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:16pt; font-weight:600;&quot;&gt;.Задача управления&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;
+  &lt;head&gt;
+    &lt;style&gt;
+      .styletext {
+	font-family:'Times New Roman'; 
+	font-size:14pt; 
+	color:black;
+	
+	text-align: justify;
+	line-height: 40px;
+	margin-top: 25px;
+	white-space: pre-wrap;
+	margin-left: 60px;
+	margin-right: 30px;
+      }
+      .stylehead {
+	font-family:'Times New Roman'; 
+	font-size:20pt; 
+	color:black;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 18px;
+	font-weight: bold;
+      }
+     .styleris {
+	margin-top: 20px;
+	font-family:'Times New Roman'; 
+	font-size:14pt; 
+	color:black;
+	text-align: center;
+	line-height: 25px;
+}
+    &lt;/style&gt;
+
+   &lt;/head&gt;
+
+ 
+ 
+  &lt;body&gt;
+&lt;div class=&quot;stylehead&quot;&gt;
+1.Понятие об управляемых объектах
+&lt;/div&gt;
+    &lt;div class=&quot;styletext&quot;&gt;
+    Рассмотрим прямолинейное движение автомобиля. В каждый момент времени состояние автомобиля характеризуется двумя числами: пройденным расстоянием S и скоростью &amp;nu;. Эти две величины меняются с течением времени, но не самопроизвольно, а сообразно воле водителя, который может по своему желанию управлять работой двигателя, уменьшая или увеличивая развиваемую этим двигателем силу F. 
+    Таким образом, мы имеем три связанных между собой параметра: S, &amp;nu;, F, показанных на рис. 1.
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+&lt;img src=&quot;:/images/im1.jpg&quot;/&gt;&lt;br&gt;
+Рис. 1
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Величины S и &amp;nu;, характеризующие состояние автомобиля, называют фазовыми координатами, а величину F — управляющим параметром. 
+    Если мы будем рассматривать движение по плоскости, а не по прямой, то фазовых координат будет четыре (две «географические» координаты и две компоненты скорости), а управляющих параметров два (сила тяги двигателя и угол поворота руля).  
+    У летящего самолёта можно рассматривать 6 фазовых координат (три пространственные и три компоненты скорости) и несколько управляющих параметров: тяга двигателя, величины, характеризующие направление рулей высоты и направления.
+    В электрическом утюге с терморегулятором фазовыми координатами будут сила тока и температура нагрева, а управляющим параметром — два положения регулятора. 
+    Сказанное выше делает естественным следующее математическое описание управляемого объекта: состояние объекта задаётся (в каждый момент времени) n числами x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;, которые называются фазовыми координатами.
+    Движение объекта заключается, с математической точки зрения, в том, что его состояние с течением времени изменяется, т.е x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt; являются переменными величинами (функциями времени). Это движение объекта происходит не самопроизвольно, им можно управлять. Объект снабжён «рулями», положение которых в каждый момент времени характеризуется r числами u&lt;sub&gt;1&lt;/sub&gt;,u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt; r&lt;/sub&gt;. Эти числа называются управляющими параметрами.
+    Рулями можно «манипулировать», т.е. по своему желанию менять параметры u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  с течением времени. Что касается  x&lt;sub&gt;1&lt;/sub&gt;(t), x&lt;sub&gt;2&lt;/sub&gt;(t), ... , x&lt;sub&gt;n&lt;/sub&gt;(t) то они не в полной мере зависят от нашего желания. 
+    Мы будем предполагать, что, зная фазовые состояния объекта в начальный момент времени  t&lt;sub&gt;0&lt;/sub&gt;  и выбрав направляющие функции  u&lt;sub&gt;1&lt;/sub&gt;(t),u&lt;sub&gt;2&lt;/sub&gt;(t), ... , u&lt;sub&gt;r&lt;/sub&gt;(t)  (для t &gt; t&lt;sub&gt;0&lt;/sub&gt;), мы сможем математически точно рассчитать поведение объекта для всех   t &gt; t&lt;sub&gt;0&lt;/sub&gt;. То есть сможем найти функции x&lt;sub&gt;1&lt;/sub&gt;(t), x&lt;sub&gt;2&lt;/sub&gt;(t), ... , x&lt;sub&gt;n&lt;/sub&gt;(t), характеризующие изменение фазовых координат с течением времени.
+    Величины u&lt;sub&gt;1&lt;/sub&gt;,u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt; r&lt;/sub&gt; удобно считать координатами некоторого вектора u = {u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;}, который также называют управляющим вектором, а x = {x&lt;sub&gt;1&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;}  — точкой n-мерного пространства с координатами  x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;. 
+    Это n-мерное пространство, в котором в виде точек изображаются фазовые состояния объекта, называется фазовым пространством.
+    Чтобы полностью задать движение объекта, надо задать его фазовое состояние в начальный момент времени  t&lt;sub&gt;0&lt;/sub&gt; и выбрать управляющие функции  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  для   t &gt; t&lt;sub&gt;0&lt;/sub&gt; (выбрать некоторую функцию u(t) = {u&lt;sub&gt;1&lt;/sub&gt;(t) ... , u&lt;sub&gt;r&lt;/sub&gt;(t)} Эту функцию u(t) будем называть управлением. 
+    Задание начального фазового состояния  x&lt;sup&gt;0&lt;/sup&gt; = {x&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;0&lt;/sup&gt;, x&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;0&lt;/sup&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;&lt;sup&gt;0&lt;/sup&gt;}  и управления u(t) однозначно определяет дальнейшее движение объекта. Это движение заключается в том, что фазовая точка  x(t) = {x&lt;sub&gt;1&lt;/sub&gt;(t), x&lt;sub&gt;2&lt;/sub&gt;(t), ... , x&lt;sub&gt;n&lt;/sub&gt;(t)}  изображающая состояние объекта с течением времени, перемещается, описывая в фазовом пространстве некоторую линию, называемую фазовой траекторией рассматриваемого движения объекта.
+    Пару векторных функций  {u(t), x(t)}  называют процессом управления или просто — процессом.
+    &lt;/div&gt;
+ &lt;div class=&quot;stylehead&quot;&gt;
+2.Задача управления
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Часто встречается следующая задача, связанная с управляемыми объектами: в начальный момент времени t&lt;sub&gt;0&lt;/sub&gt; объект находится в фазовом состоянии   x&lt;sup&gt;0&lt;/sup&gt;. Требуется выбрать такое управление u(t), которое переведёт объект в заранее заданное конечное фазовое состояние  x&lt;sup&gt;1&lt;/sup&gt; = {x&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;1&lt;/sup&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;&lt;sup&gt;1&lt;/sup&gt;}  (отличное от x&lt;sup&gt;0&lt;/sup&gt;). Различные варианты перехода из точки  x&lt;sup&gt;0&lt;/sup&gt;  в точку  x&lt;sup&gt;1&lt;/sup&gt;  представлены на рис. 2.
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+&lt;img src=&quot;:/images/im2.jpg&quot;/&gt;&lt;br&gt;
+Рис. 2
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    При этом требуется, чтобы переходный процесс (из точки  x&lt;sup&gt;0&lt;/sup&gt;  в точку  x&lt;sup&gt;1&lt;/sup&gt;) был в определённом смысле «наилучшим», например, чтобы время перехода было наименьшим или чтобы энергия, затраченная во время переходного процесса, была минимальной. Такой «наилучший» процесс называется оптимальным. 
+    Если речь идет о наименьшем времени перехода, то такие процессы называются оптимальными в смысле быстродействия. Иначе говоря, процесс, в результате которого объект переходит из точки x&lt;sup&gt;0&lt;/sup&gt; в точку x&lt;sup&gt;1&lt;/sup&gt;, называется оптимальным по быстродействию, если не существует процесса, переводящего объект из точки  x&lt;sup&gt;0&lt;/sup&gt;  в точку  x&lt;sup&gt;1&lt;/sup&gt;  за меньшее время. 
+    &lt;/div&gt;
+ &lt;div class=&quot;stylehead&quot;&gt;
+3. Уравнение движения объекта
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Начнем с рассмотрения одного простого примера. Пусть G ‒ материальная точка, которая может совершать прямолинейное движение. Массу этой точки будем предполагать постоянной и равной m. Координату точки G, отсчитываемую от точки 0, будем обозначать через x&lt;sub&gt;1&lt;/sub&gt; (рис. 3).
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+&lt;img src=&quot;:/images/im3.jpg&quot;/&gt;&lt;br&gt;
+Рис. 3
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    При движении тела G его траектория  x&lt;sub&gt;1&lt;/sub&gt;  меняется с течением времени. Производная  (ФОРМУЛА)  представляет собой скорость движения тела G. Будем предполагать, что на тело G действуют две внешние силы: 
+	сила трения   (ФОРМУЛА) , где b ‒ коэффициент трения;
+	упругая сила  (ФОРМУЛА)  , где k ‒ коэффициент упругости.
+Кроме того, тело G снабжено двигателем. Развиваемую двигателем силу воздействия на тело G обозначим u. Таким образом, по второму закону Ньютона движение тела G с течением времени будет описываться дифференциальным уравнением:
+ (ФОРМУЛА) .
+    Обозначив скорость движения через  x&lt;sub&gt;2&lt;/sub&gt; (т.е. положив  (ФОРМУЛА) ), мы сможем записать этот закон движения в виде следующей системы дифференциальных уравнений:
+ (ФОРМУЛА) 
+    Здесь величины  x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt; ‒ фазовые координаты тела G, а величина u‒ управляющий параметр (рис. 4).
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+&lt;img src=&quot;:/images/im4.jpg&quot;/&gt;&lt;br&gt;
+Рис. 4
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Эти уравнения представляют собой закон изменения фазовых координат с течением времени, т.е. закон движения фазовой точки в фазовой плоскости. 
+    Движение объекта описывается обыкновенными дифференциальными уравнениями. Эти уравнения дают выражения производных от фазовых координат через сами фазовые координаты и управляющие параметры и имеют вид:
+ (ФОРМУЛА) 
+где  f&lt;sub&gt;1&lt;/sub&gt;, ... , f&lt;sub&gt;n&lt;/sub&gt; ‒ некоторые функции, определяемые внутренним устройством объекта (например:  f&lt;sub&gt;1&lt;/sub&gt; = x&lt;sub&gt;2&lt;/sub&gt;; f&lt;sub&gt;2&lt;/sub&gt; = - k/m x&lt;sub&gt;1&lt;/sub&gt; - b/m x&lt;sub&gt;2&lt;/sub&gt; + 1/m u).
+    В векторной форме систему дифференциальных уравнений можно записать в виде: 
+ (ФОРМУЛА) , 
+где x ‒ вектор с координатами (x&lt;sub&gt;1&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;), u‒ вектор с координатами ( u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;).
+    Эту систему дифференциальных уравнений невозможно решить, не зная, каким образом будут меняться с течением времени управляющие параметры  u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;. Напротив, зная поведение величин u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;, т.е. зная управляющие функции  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; для  t &gt; t&lt;sub&gt;0&lt;/sub&gt;, мы сможем с помощью системы 
+ (ФОРМУЛА) 
+
+или
+ (ФОРМУЛА) 
+однозначно определить движение объекта при   t &gt; t&lt;sub&gt;0&lt;/sub&gt;, если нам известно начальное фазовое состояние объекта при  t = t&lt;sub&gt;0&lt;/sub&gt;.
+    Задание начального фазового состояния позволяет однозначно определить фазовую траекторию x(t),  t &gt; t&lt;sub&gt;0&lt;/sub&gt; с помощью системы дифференциальных уравнений (*). Это вытекает из теоремы о существовании и единственности решений системы дифференциальных уравнений. 
+    Если мы изменим управление u(t), то получим некоторую другую траекторию, исходящую из той же точки x&lt;sup&gt;0&lt;/sup&gt;. Вновь изменив управление u(t), получим новую траекторию и т.д. (рис. 5).
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+&lt;img src=&quot;:/images/im5.jpg&quot;/&gt;&lt;br&gt;
+Рис. 5
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Для других u(t) получается иная система (*). Управление u(t) оптимально, если оно переводит траекторию из точки  (ФОРМУЛА)  в точку  (ФОРМУЛА) за кратчайшее время. Сама траектория называется оптимальной траекторией.
+&lt;/div&gt;
+&lt;div class=&quot;stylehead&quot;&gt;
+4. Допустимые управления
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Обычно управляющие параметры  (ФОРМУЛА) не могут принимать совершенно произвольные значения, т.к. подчинены некоторым ограничениям. Например, сила u, развиваемая двигателем, не может быть как угодно большой по величине, а подчинена некоторым ограничениям:
+	&amp;alpha; ≤ u ≤ &amp;beta; (&amp;alpha; и &amp;beta; - const).
+Например, при &amp;alpha; = &amp;minus;1, &amp;beta;= 1,
+	&amp;minus;1 ≤ u ≤ 1. 
+    Это ограничение означает, что двигатель может развивать силу, направленную в любую сторону, но не превосходящую единицу по величине.
+    Для объекта, содержащего r управляющих параметров u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; имеем:
+	(ФОРМУЛА)                                   
+    При r = 2, u = {u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;} точки, координаты которых подчинены неравенствам (**), заполняют прямоугольник. 
+    При r = 3 неравенства определяют параллелепипед, а в общем случае в заданном пространстве переменных  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  – множество U, т.е. разрешается рассматривать управления u(t) такие, что u(t) &amp;isin; U.
+    Множество U называется областью управления. Эта область может иметь сложный вид:
+	&amp;phi;(u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;) = 0
+или 
+	&amp;upsih;(u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;) ≤ 0
+    Например, если параметры u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; характеризуют векторную величину на плоскости, модуль которой не превосходит единицу, а направление — произвольное, то 
+	U: u&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; + u&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; - 1 ≤ 0
+и область управления U определяет круг.
+    В дальнейшем будем предполагать, что указание области управления входит в математическое определение объекта. 
+    Заметим, что для технических задач особенно важен и характерен случай замкнутого множества U, т.е. случай, когда u может находиться не только внутри U, но и на границе.
+    Управления могут мгновенно переключить рули из одного положения в другое от -1 до +1. В соответствии с этим будем рассматривать не только непрерывные, но и произвольные кусочно-непрерывные управления u(t), т.е. управления, состоящие из конечного числа непрерывных кусков.
+    Функция u(t) называется кусочно-непрерывной, если она непрерывна для всех рассматриваемых t, за исключением тех моментов времени, где есть разрыв первого рода. Предполагается, что в каждой точке разрыва τ значение функции равно пределу справа.
+    Условимся называть допустимым управлением всякую кусочно-непрерывную функцию u(t),  t&lt;sub&gt;0&lt;/sub&gt; ≤ t ≤  t&lt;sub&gt;1&lt;/sub&gt;  со значениями в области управления U, непрерывную на концах отрезка, на котором она задана.
+&lt;/div&gt;
+&lt;div class=&quot;stylehead&quot;&gt;
+5. Общая постановкак задачи ОУ
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    В фазовом пространстве даны две точки  x&lt;sup&gt;0&lt;/sup&gt;  и  x&lt;sup&gt;1&lt;/sup&gt;. Среди всех допустимых управлений u = u(t), переводящих фазовую точку из положения x&lt;sup&gt;0&lt;/sup&gt; в x&lt;sup&gt;1&lt;/sup&gt; (если такие управления существуют), найти такое, для которого функционал
+	(ФОРМУЛА) 
+принимает наименьшее возможное значение.
+    Здесь x(t) – решение системы (*) с начальным условием x(t&lt;sub&gt;0&lt;/sub&gt;) = x&lt;sup&gt;0&lt;/sup&gt;, соответствующее управлению u(t),  t&lt;sub&gt;0&lt;/sub&gt; ‒ начальный момент времени, а  t&lt;sub&gt;1&lt;/sub&gt; – момент прохождения через точку  x&lt;sup&gt;1&lt;/sup&gt;. Функция  f&lt;sub&gt;0&lt;/sub&gt;(x, u)  определена и непрерывна вместе с частными производными
+	(ФОРМУЛА) 
+на всем пространстве X * U (X ‒ фазовое пространство, U ‒ область допустимых управлений).
+    Заметим, что все  f&lt;sub&gt;i&lt;/sub&gt;  и  (ФОРМУЛА), i = 1, ... , n,  j = 1, ... , n также непрерывны на X * U и что система (*) автономна, т.е. её правые части не зависят явно от времени.
+    Для неавтономных систем уравнения движения будут иметь вид:
+	(ФОРМУЛА)
+а функционал имеет вид:
+	(ФОРМУЛА)
+    Отметим, что при фиксированных x&lt;sup&gt;0&lt;/sup&gt; и  x&lt;sup&gt;1&lt;/sup&gt;,  t&lt;sub&gt;1&lt;/sub&gt; в интеграле (1) не является фиксированным числом, а зависит от выбора управления u(t), переводящего объект из  x&lt;sup&gt;0&lt;/sup&gt; в  x&lt;sup&gt;1&lt;/sup&gt;. Этот предел  t&lt;sub&gt;1&lt;/sub&gt; определяется из соотношения
+	x(t&lt;sub&gt;1&lt;/sub&gt;) = x&lt;sup&gt;1&lt;/sup&gt;.
+    Управление u(t), дающее решение поставленной задачи, называется оптимальным управлением, соответствующим переходу из положения  x&lt;sup&gt;0&lt;/sup&gt; в  x&lt;sup&gt;1&lt;/sup&gt;.
+    Важным частным случаем оптимальной общей задачи является случай, когда 
+	f&lt;sub&gt;0&lt;/sub&gt;(x, u) = 1.
+Тогда (1) будет равен
+	J = t&lt;sub&gt;1&lt;/sub&gt; - t&lt;sub&gt;0&lt;/sub&gt;.
+Это уже рассмотренная нами задача об оптимальном быстродействии.
+&lt;/div&gt;
+&lt;div class=&quot;stylehead&quot;&gt;
+6. Постановка задачи ОУ в (n + 1) - мерном пространстве
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Для формулировки необходимого условия оптимальности удобно дать иную формулировку поставленной выше задачи.
+    Добавим к фазовым координатам (ФОРМУЛА), меняющимся по закону (*), еще одну координату (ФОРМУЛА), закон изменения которой имеет вид: 
+	(ФОРМУЛА),
+где (ФОРМУЛА)  – подынтегральная функция из (1).
+    Иначе говоря, мы будем рассматривать систему дифференциальных уравнений
+	(ФОРМУЛА)
+    Введем новый вектор (ФОРМУЛА) — это вектор (n+1) – мерного векторного пространства.
+Система (2) будет иметь вид:
+	(ФОРМУЛА),
+где (ФОРМУЛА)  ‒ вектор-функция правых частей (2).
+Геометрическая иллюстрация такого перехода представлена на рис. 6.
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+&lt;img src=&quot;:/images/im6.jpg&quot;/&gt;&lt;br&gt;
+Рис. 6
+&lt;/div&gt;
+&lt;div class=&quot;stylehead&quot;&gt;
+7. Принцип максимума Понтрягина
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Переходим к формулировке теоремы, дающей решение поставленной основной задачи оптимального управления.
+    Для формулировки теоремы, кроме основной системы уравнений (2), рассмотрим еще одну систему дифференциальных уравнений относительно вспомогательных переменных 
+&amp;psi;&lt;sub&gt;0&lt;/sub&gt;, &amp;psi;&lt;sub&gt;1&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;:
+	(ФОРМУЛА)
+являющуюся системой (n + 1) линейных ДУ относительно переменных &amp;psi;&lt;sub&gt;0&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;.
+    Система (3) — это сопряженная система, в векторном виде имеет вид:
+	(ФОРМУЛА),
+где
+	(ФОРМУЛА).
+    Если мы выберем некоторое допустимое управление u(t), t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;,  при этом имея соответствующую фазовую траекторию x&amp;#773;(t) и систему ДУ (2) с начальным условием (ФОРМУЛА), система ДУ (3) принимает вид
+	(ФОРМУЛА).
+    Это система (n + 1) обыкновенных линейных ДУ с постоянными коэффициентами. Она линейна и однородна, поэтому при любых начальных условиях &amp;psi;&lt;sub&gt;i&lt;/sub&gt; она допускает единственное решение.  Как и решение x(t) системы (2), решение системы (3) состоит из непрерывных функций &amp;psi;&lt;sub&gt;i&lt;/sub&gt;(t), имеющих всюду непрерывные производные по t.
+    Объединим системы (2) и (3) одной записью, для чего рассмотрим функцию &amp;#8459;(гамильтониан) переменных x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... ,x&lt;sub&gt;n&lt;/sub&gt;, &amp;psi;&lt;sub&gt;1&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;, u&lt;sub&gt;1&lt;/sub&gt;, ... ,u&lt;sub&gt;n&lt;/sub&gt;:
+	(ФОРМУЛА).
+    Непосредственно проверяется, что записанные выше системы ДУ могут с помощью этой функции &amp;#8459; быть записаны в виде следующей гамильтоновой системы:
+	(ФОРМУЛА)
+    Взяв произвольное допустимое (кусочно-непрерывное) управление u(t),  t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;, x&amp;#773;(t&lt;sub&gt;0&lt;/sub&gt;) = x&amp;#773;&lt;sup&gt;0&lt;/sup&gt; , мы можем найти соответствующую (удовлетворяющую системе (5)) траекторию
+	x&amp;#773;(t)=(x&lt;sub&gt;0&lt;/sub&gt;(t), x&lt;sub&gt;1&lt;/sub&gt;(t), ... ,x&lt;sub&gt;n&lt;/sub&gt;(t)).
+    После этого мы можем находить соответствующие функциям u(t) и x&amp;#773;(t) решения &amp;psi;&amp;#773;(t) = (&amp;psi;&lt;sub&gt;0&lt;/sub&gt;(t),&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)).
+    При фиксированных (постоянных) значениях &amp;psi;&amp;#773; функция &amp;#8459; становится функцией параметра u &amp;#8712; U; точную верхнюю грань значений этой функции мы обозначим через &amp;#8499;(&amp;psi;&amp;#773;,x).
+	(ФОРМУЛА).
+    Если точная верхняя грань значений непрерывной функции H достигается в некоторой внутренней точке области U, то &amp;#8499;(&amp;psi;&amp;#773;,x) есть максимум значений функции  &amp;#8459; при фиксированных  &amp;psi;&amp;#773; и x. Поэтому ниже следующую теорему 1, главным содержанием которой является равенство (7), мы называем принципом максимума.
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+Теорема 1.
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Пусть u(t), t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt; — такое допустимое управление, что соответствующая ему траектория x&amp;#773;(t), исходящая в момент   t&lt;sub&gt;1&lt;/sub&gt; из
+(&amp;#8226;)x&amp;#773;&lt;sup&gt;0&lt;/sup&gt; = (0,x), проходит в момент  t&lt;sub&gt;1&lt;/sub&gt; через некоторую точку прямой П. 
+    Для оптимальности управления u(t) и траектории x&amp;#773;(t) необходимо существование такой ненулевой непрерывной вектор-функции
+&amp;psi;&amp;#773;(t) = (&amp;psi;&lt;sub&gt;0&lt;/sub&gt;(t),&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)), соответствующей функциям u(t) и x&amp;#773;(t), что:
+	1. при любом t, t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt; функция &amp;#8459;(&amp;psi;&amp;#773;(t), x(t), u) переменного u &amp;isin; U достигает в точке u = u(t) максимума
+		(ФОРМУЛА);
+	2. в конечный момент t&lt;sub&gt;1&lt;/sub&gt; выполнены соотношения 
+		(ФОРМУЛА).
+    Теорема 1 позволяет из всех траекторий, начинающихся в точке x&amp;#773;&lt;sup&gt;0&lt;/sup&gt; и кончающихся в некоторой точке прямой П, и соответствующих им управлений выделить лишь отдельные, удовлетворяющие всем сформулированным условиям (8) и (9).
+&lt;/div&gt;
+&lt;div class=&quot;stylehead&quot;&gt;
+8. Принцип маскимума для задачи оптимального быстродействия
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Рассмотрим принцип максимума для задачи по быстродействию и сформулируем теорему 2 ‒ необходимое условие оптимальности по быстродействию. Имеем: 
+	f&lt;sub&gt;0&lt;/sub&gt;(x,u)=1,
+	(ФОРМУЛА). 
+Введем n-мерный вектор 
+	&amp;psi;=(&amp;psi;&lt;sub&gt;1&lt;/sub&gt;,&amp;psi;&lt;sub&gt;2&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;)
+ и функцию Гамильтона
+	(ФОРМУЛА).
+ Гамильтонова система будет иметь вид
+
+	(ФОРМУЛА)
+
+    При фиксированных значениях &amp;psi;, x функция H становится функцией параметра u. Точную верхнюю границу обозначим через
+	(ФОРМУЛА)
+В силу того, что
+	H(&amp;psi;, x, u) =  &amp;#8459;(&amp;psi;&amp;#773;, x , u) - &amp;psi;&lt;sub&gt;0&lt;/sub&gt;,
+мы получаем
+	M(&amp;psi;,x) = &amp;#8499;(&amp;psi;&amp;#773;, x) - &amp;psi;&lt;sub&gt;0&lt;/sub&gt;,
+и условие теоремы 1 принимает вид
+	H(&amp;psi;(t), x(t), u(t)) = M(&amp;psi;(t), x(t)) = -&amp;psi;&lt;sub&gt;0&lt;/sub&gt; &amp;#8805; 0.
+&lt;/div&gt;
+&lt;div class=&quot;styleris&quot;&gt;
+Теорема 2.
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Пусть u(t), t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt; ‒ допустимое управление, переводящее фазовую точку из положения x&lt;sup&gt;0&lt;/sup&gt; в положение  x&lt;sup&gt;1&lt;/sup&gt;, а x(t) ‒ соответствующая траектория такая, что x(t&lt;sub&gt;0&lt;/sub&gt;) = x&lt;sup&gt;0&lt;/sup&gt;, x(t&lt;sub&gt;1&lt;/sub&gt;) = x&lt;sup&gt;1&lt;/sup&gt;. Для оптимальности (по быстродействию) уравнения u(t) и траектории x(t) необходимо существование такой ненулевой непрерывной вектор-функции 
+	&amp;psi;(t) = (&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;2&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)),
+соответствующей функциям u(t)  и x(t) что:
+	1. для всех  t, t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;  функция H(&amp;psi;(t), x(t), u) переменного u &amp;#8712; U достигает в точке u = u(t) максимума при фиксированных &amp;psi;(t) и u(t) 
+ 		H(&amp;psi;(t), x(t), u(t)) = M(&amp;psi;(t), x(t)); 
+	2. в конечный момент времени t&lt;sub&gt;1&lt;/sub&gt; выполнено условие
+		 M(&amp;psi;(t&lt;sub&gt;1&lt;/sub&gt;), x(t&lt;sub&gt;1&lt;/sub&gt;)) &amp;#8805; 0.
+	Если, например, максимум функции H достигается во внутренней точке области управления u &amp;#8712; U, то для выполнения условия максимума (10) необходимо
+	(ФОРМУЛА), 
+при u = u(t), j = 1, … ,r. 
+
+&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
      </layout>
     </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Содержание&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>252</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pB1">
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Понятие об управляемых объектах</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pB2">
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Задача управления</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pB3">
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Уравнения движения объекта</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pB4">
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Допустимые управления</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pB5">
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Общая постановка задачи ОУ</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pB6">
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Постановка задачи ОУ в (n+1) - мерном
+пространстве</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pB7">
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Принцип максимума Понтрягина</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pB8">
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Принцип максимума для задачи
+оптимального быстродействия</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>20</y>
+      <width>21</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

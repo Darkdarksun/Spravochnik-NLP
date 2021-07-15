@@ -20,6 +20,20 @@ private slots:
 
     void on_pB2_clicked();
 
+    void on_pB3_clicked();
+
+    void on_pB4_clicked();
+
+    void on_pB5_clicked();
+
+    void on_pB6_clicked();
+
+    void on_pB7_clicked();
+
+    void on_pB8_clicked();
+
+   // void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
