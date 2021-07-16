@@ -1,5 +1,4 @@
 <RCC>
-    <qresource prefix="/im"/>
     <qresource prefix="/images">
         <file>im1.jpg</file>
         <file>im2.jpg</file>
@@ -7,5 +6,39 @@
         <file>im4.jpg</file>
         <file>im5.jpg</file>
         <file>im6.jpg</file>
+    </qresource>
+    <qresource prefix="/for">
+        <file>resourses/for1.jpg</file>
+        <file>resourses/for2.jpg</file>
+        <file>resourses/for3.jpg</file>
+        <file>resourses/for4.jpg</file>
+        <file>resourses/for4x.jpg</file>
+        <file>resourses/for5.jpg</file>
+        <file>resourses/for7.jpg</file>
+        <file>resourses/for8.jpg</file>
+        <file>resourses/for9.jpg</file>
+        <file>resourses/for10.jpg</file>
+        <file>resourses/for11.jpg</file>
+        <file>resourses/forx.jpg</file>
+        <file>resourses/forxx.jpg</file>
+        <file>resourses/a301.jpg</file>
+        <file>resourses/a302.jpg</file>
+        <file>resourses/a303.jpg</file>
+        <file>resourses/a304.jpg</file>
+        <file>resourses/a305.jpg</file>
+        <file>resourses/a504.jpg</file>
+        <file>resourses/a501.jpg</file>
+        <file>resourses/a502.jpg</file>
+        <file>resourses/a503.jpg</file>
+        <file>resourses/a603.jpg</file>
+        <file>resourses/a601.jpg</file>
+        <file>resourses/a602.jpg</file>
+        <file>resourses/a702.jpg</file>
+        <file>resourses/a701.jpg</file>
+        <file>resourses/a805.jpg</file>
+        <file>resourses/a801.jpg</file>
+        <file>resourses/a802.jpg</file>
+        <file>resourses/a803.jpg</file>
+        <file>resourses/a804.jpg</file>
     </qresource>
 </RCC>

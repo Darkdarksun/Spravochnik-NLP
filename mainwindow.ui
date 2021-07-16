@@ -38,7 +38,7 @@
        <x>0</x>
        <y>0</y>
        <width>4499</width>
-       <height>8287</height>
+       <height>9952</height>
       </rect>
      </property>
      <property name="palette">
@@ -486,6 +486,11 @@
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
        <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>MS Serif</family>
+         </font>
+        </property>
         <property name="text">
          <string>&lt;html&gt;
   &lt;head&gt;
@@ -518,6 +523,12 @@
 	color:black;
 	text-align: center;
 	line-height: 25px;
+}
+    .styleform {
+	font-family:'Times New Roman'; 
+	font-size:14pt; 
+	color:black;
+	text-align: center;
 }
     &lt;/style&gt;
 
@@ -577,13 +588,21 @@
 Рис. 3
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
-    При движении тела G его траектория  x&lt;sub&gt;1&lt;/sub&gt;  меняется с течением времени. Производная  (ФОРМУЛА)  представляет собой скорость движения тела G. Будем предполагать, что на тело G действуют две внешние силы: 
-	сила трения   (ФОРМУЛА) , где b ‒ коэффициент трения;
-	упругая сила  (ФОРМУЛА)  , где k ‒ коэффициент упругости.
+    При движении тела G его траектория  x&lt;sub&gt;1&lt;/sub&gt;  меняется с течением времени. Производная &amp;#7819; представляет собой скорость движения тела G. Будем предполагать, что на тело G действуют две внешние силы: 
+	сила трения ‒b&amp;#7819;&lt;sub&gt;1&lt;/sub&gt;, где b ‒ коэффициент трения;
+	упругая сила  ‒kx&lt;sub&gt;1&lt;/sub&gt; , где k ‒ коэффициент упругости.
 Кроме того, тело G снабжено двигателем. Развиваемую двигателем силу воздействия на тело G обозначим u. Таким образом, по второму закону Ньютона движение тела G с течением времени будет описываться дифференциальным уравнением:
- (ФОРМУЛА) .
-    Обозначив скорость движения через  x&lt;sub&gt;2&lt;/sub&gt; (т.е. положив  (ФОРМУЛА) ), мы сможем записать этот закон движения в виде следующей системы дифференциальных уравнений:
- (ФОРМУЛА) 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a301.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Обозначив скорость движения через  x&lt;sub&gt;2&lt;/sub&gt; (т.е. положив  &amp;#7819;&lt;sub&gt;1&lt;/sub&gt;=x&lt;sub&gt;2&lt;/sub&gt;), мы сможем записать этот закон движения в виде следующей системы дифференциальных уравнений:
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a302.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
     Здесь величины  x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt; ‒ фазовые координаты тела G, а величина u‒ управляющий параметр (рис. 4).
 &lt;/div&gt;
 &lt;div class=&quot;styleris&quot;&gt;
@@ -593,16 +612,27 @@
 &lt;div class=&quot;styletext&quot;&gt;
     Эти уравнения представляют собой закон изменения фазовых координат с течением времени, т.е. закон движения фазовой точки в фазовой плоскости. 
     Движение объекта описывается обыкновенными дифференциальными уравнениями. Эти уравнения дают выражения производных от фазовых координат через сами фазовые координаты и управляющие параметры и имеют вид:
- (ФОРМУЛА) 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a303.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
 где  f&lt;sub&gt;1&lt;/sub&gt;, ... , f&lt;sub&gt;n&lt;/sub&gt; ‒ некоторые функции, определяемые внутренним устройством объекта (например:  f&lt;sub&gt;1&lt;/sub&gt; = x&lt;sub&gt;2&lt;/sub&gt;; f&lt;sub&gt;2&lt;/sub&gt; = - k/m x&lt;sub&gt;1&lt;/sub&gt; - b/m x&lt;sub&gt;2&lt;/sub&gt; + 1/m u).
     В векторной форме систему дифференциальных уравнений можно записать в виде: 
- (ФОРМУЛА) , 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a304.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt; 
 где x ‒ вектор с координатами (x&lt;sub&gt;1&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;), u‒ вектор с координатами ( u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;).
     Эту систему дифференциальных уравнений невозможно решить, не зная, каким образом будут меняться с течением времени управляющие параметры  u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;. Напротив, зная поведение величин u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;, т.е. зная управляющие функции  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; для  t &gt; t&lt;sub&gt;0&lt;/sub&gt;, мы сможем с помощью системы 
- (ФОРМУЛА) 
-
+          &lt;img src=&quot;:/for/resourses/forx.jpg&quot;/&gt;
 или
- (ФОРМУЛА) 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a305.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
 однозначно определить движение объекта при   t &gt; t&lt;sub&gt;0&lt;/sub&gt;, если нам известно начальное фазовое состояние объекта при  t = t&lt;sub&gt;0&lt;/sub&gt;.
     Задание начального фазового состояния позволяет однозначно определить фазовую траекторию x(t),  t &gt; t&lt;sub&gt;0&lt;/sub&gt; с помощью системы дифференциальных уравнений (*). Это вытекает из теоремы о существовании и единственности решений системы дифференциальных уравнений. 
     Если мы изменим управление u(t), то получим некоторую другую траекторию, исходящую из той же точки x&lt;sup&gt;0&lt;/sup&gt;. Вновь изменив управление u(t), получим новую траекторию и т.д. (рис. 5).
@@ -612,19 +642,19 @@
 Рис. 5
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
-    Для других u(t) получается иная система (*). Управление u(t) оптимально, если оно переводит траекторию из точки  (ФОРМУЛА)  в точку  (ФОРМУЛА) за кратчайшее время. Сама траектория называется оптимальной траекторией.
+    Для других u(t) получается иная система (*). Управление u(t) оптимально, если оно переводит траекторию из точки  x&lt;sup&gt;0&lt;/sup&gt;  в точку  x&lt;sup&gt;1&lt;/sup&gt; за кратчайшее время. Сама траектория называется оптимальной траекторией.
 &lt;/div&gt;
 &lt;div class=&quot;stylehead&quot;&gt;
 4. Допустимые управления
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
-    Обычно управляющие параметры  (ФОРМУЛА) не могут принимать совершенно произвольные значения, т.к. подчинены некоторым ограничениям. Например, сила u, развиваемая двигателем, не может быть как угодно большой по величине, а подчинена некоторым ограничениям:
+    Обычно управляющие параметры u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; не могут принимать совершенно произвольные значения, т.к. подчинены некоторым ограничениям. Например, сила u, развиваемая двигателем, не может быть как угодно большой по величине, а подчинена некоторым ограничениям:
 	&amp;alpha; ≤ u ≤ &amp;beta; (&amp;alpha; и &amp;beta; - const).
 Например, при &amp;alpha; = &amp;minus;1, &amp;beta;= 1,
 	&amp;minus;1 ≤ u ≤ 1. 
     Это ограничение означает, что двигатель может развивать силу, направленную в любую сторону, но не превосходящую единицу по величине.
     Для объекта, содержащего r управляющих параметров u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; имеем:
-	(ФОРМУЛА)                                   
+    &lt;img src=&quot;:/for/resourses/forxx.jpg&quot;/&gt;                                
     При r = 2, u = {u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;} точки, координаты которых подчинены неравенствам (**), заполняют прямоугольник. 
     При r = 3 неравенства определяют параллелепипед, а в общем случае в заданном пространстве переменных  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  – множество U, т.е. разрешается рассматривать управления u(t) такие, что u(t) &amp;isin; U.
     Множество U называется областью управления. Эта область может иметь сложный вид:
@@ -645,16 +675,28 @@
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
     В фазовом пространстве даны две точки  x&lt;sup&gt;0&lt;/sup&gt;  и  x&lt;sup&gt;1&lt;/sup&gt;. Среди всех допустимых управлений u = u(t), переводящих фазовую точку из положения x&lt;sup&gt;0&lt;/sup&gt; в x&lt;sup&gt;1&lt;/sup&gt; (если такие управления существуют), найти такое, для которого функционал
-	(ФОРМУЛА) 
+      &lt;img src=&quot;:/for/resourses/for1.jpg&quot;/&gt;
 принимает наименьшее возможное значение.
     Здесь x(t) – решение системы (*) с начальным условием x(t&lt;sub&gt;0&lt;/sub&gt;) = x&lt;sup&gt;0&lt;/sup&gt;, соответствующее управлению u(t),  t&lt;sub&gt;0&lt;/sub&gt; ‒ начальный момент времени, а  t&lt;sub&gt;1&lt;/sub&gt; – момент прохождения через точку  x&lt;sup&gt;1&lt;/sup&gt;. Функция  f&lt;sub&gt;0&lt;/sub&gt;(x, u)  определена и непрерывна вместе с частными производными
-	(ФОРМУЛА) 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a501.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
 на всем пространстве X * U (X ‒ фазовое пространство, U ‒ область допустимых управлений).
-    Заметим, что все  f&lt;sub&gt;i&lt;/sub&gt;  и  (ФОРМУЛА), i = 1, ... , n,  j = 1, ... , n также непрерывны на X * U и что система (*) автономна, т.е. её правые части не зависят явно от времени.
+    Заметим, что все  f&lt;sub&gt;i&lt;/sub&gt;  и  &lt;img src=&quot;:/for/resourses/a502.jpg&quot;/&gt;, i = 1, ... , n,  j = 1, ... , n также непрерывны на X * U и что система (*) автономна, т.е. её правые части не зависят явно от времени.
     Для неавтономных систем уравнения движения будут иметь вид:
-	(ФОРМУЛА)
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a503.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
 а функционал имеет вид:
-	(ФОРМУЛА)
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a504.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
     Отметим, что при фиксированных x&lt;sup&gt;0&lt;/sup&gt; и  x&lt;sup&gt;1&lt;/sup&gt;,  t&lt;sub&gt;1&lt;/sub&gt; в интеграле (1) не является фиксированным числом, а зависит от выбора управления u(t), переводящего объект из  x&lt;sup&gt;0&lt;/sup&gt; в  x&lt;sup&gt;1&lt;/sup&gt;. Этот предел  t&lt;sub&gt;1&lt;/sub&gt; определяется из соотношения
 	x(t&lt;sub&gt;1&lt;/sub&gt;) = x&lt;sup&gt;1&lt;/sup&gt;.
     Управление u(t), дающее решение поставленной задачи, называется оптимальным управлением, соответствующим переходу из положения  x&lt;sup&gt;0&lt;/sup&gt; в  x&lt;sup&gt;1&lt;/sup&gt;.
@@ -669,15 +711,23 @@
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
     Для формулировки необходимого условия оптимальности удобно дать иную формулировку поставленной выше задачи.
-    Добавим к фазовым координатам (ФОРМУЛА), меняющимся по закону (*), еще одну координату (ФОРМУЛА), закон изменения которой имеет вид: 
-	(ФОРМУЛА),
-где (ФОРМУЛА)  – подынтегральная функция из (1).
+    Добавим к фазовым координатам x&lt;sub&gt;1&lt;/sub&gt;, ... ,x&lt;sub&gt;n&lt;/sub&gt;, меняющимся по закону (*), еще одну координату x&lt;sub&gt;0&lt;/sub&gt;, закон изменения которой имеет вид: 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a601.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+где f&lt;sub&gt;0&lt;/sub&gt;  – подынтегральная функция из (1).
     Иначе говоря, мы будем рассматривать систему дифференциальных уравнений
-	(ФОРМУЛА)
-    Введем новый вектор (ФОРМУЛА) — это вектор (n+1) – мерного векторного пространства.
+        &lt;img src=&quot;:/for/resourses/for2.jpg&quot;/&gt;
+    Введем новый вектор x&amp;#773; = (x&lt;sub&gt;0&lt;/sub&gt;, x&lt;sub&gt;1&lt;/sub&gt;, ... ,x&lt;sub&gt;n&lt;/sub&gt;) = (x&lt;sub&gt;0&lt;/sub&gt;, x) — это вектор (n+1) – мерного векторного пространства.
 Система (2) будет иметь вид:
-	(ФОРМУЛА),
-где (ФОРМУЛА)  ‒ вектор-функция правых частей (2).
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a602.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+где f&amp;#773; ‒ вектор-функция правых частей (2).
 Геометрическая иллюстрация такого перехода представлена на рис. 6.
 &lt;/div&gt;
 &lt;div class=&quot;styleris&quot;&gt;
@@ -691,24 +741,32 @@
     Переходим к формулировке теоремы, дающей решение поставленной основной задачи оптимального управления.
     Для формулировки теоремы, кроме основной системы уравнений (2), рассмотрим еще одну систему дифференциальных уравнений относительно вспомогательных переменных 
 &amp;psi;&lt;sub&gt;0&lt;/sub&gt;, &amp;psi;&lt;sub&gt;1&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;:
-	(ФОРМУЛА)
+        &lt;img src=&quot;:/for/resourses/for3.jpg&quot;/&gt;
 являющуюся системой (n + 1) линейных ДУ относительно переменных &amp;psi;&lt;sub&gt;0&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;.
     Система (3) — это сопряженная система, в векторном виде имеет вид:
-	(ФОРМУЛА),
+        &lt;img src=&quot;:/for/resourses/for4.jpg&quot;/&gt;
 где
-	(ФОРМУЛА).
-    Если мы выберем некоторое допустимое управление u(t), t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;,  при этом имея соответствующую фазовую траекторию x&amp;#773;(t) и систему ДУ (2) с начальным условием (ФОРМУЛА), система ДУ (3) принимает вид
-	(ФОРМУЛА).
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a701.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
+    Если мы выберем некоторое допустимое управление u(t), t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;,  при этом имея соответствующую фазовую траекторию x&amp;#773;(t) и систему ДУ (2) с начальным условием x&amp;#773;(t&lt;sub&gt;0&lt;/sub&gt;) = x&amp;#773;&lt;sup&gt;0&lt;/sup&gt;, система ДУ (3) принимает вид
+         &lt;img src=&quot;:/for/resourses/for4x.jpg&quot;/&gt;
     Это система (n + 1) обыкновенных линейных ДУ с постоянными коэффициентами. Она линейна и однородна, поэтому при любых начальных условиях &amp;psi;&lt;sub&gt;i&lt;/sub&gt; она допускает единственное решение.  Как и решение x(t) системы (2), решение системы (3) состоит из непрерывных функций &amp;psi;&lt;sub&gt;i&lt;/sub&gt;(t), имеющих всюду непрерывные производные по t.
     Объединим системы (2) и (3) одной записью, для чего рассмотрим функцию &amp;#8459;(гамильтониан) переменных x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... ,x&lt;sub&gt;n&lt;/sub&gt;, &amp;psi;&lt;sub&gt;1&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;, u&lt;sub&gt;1&lt;/sub&gt;, ... ,u&lt;sub&gt;n&lt;/sub&gt;:
-	(ФОРМУЛА).
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a702.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
     Непосредственно проверяется, что записанные выше системы ДУ могут с помощью этой функции &amp;#8459; быть записаны в виде следующей гамильтоновой системы:
-	(ФОРМУЛА)
+        &lt;img src=&quot;:/for/resourses/for5.jpg&quot;/&gt;
     Взяв произвольное допустимое (кусочно-непрерывное) управление u(t),  t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;, x&amp;#773;(t&lt;sub&gt;0&lt;/sub&gt;) = x&amp;#773;&lt;sup&gt;0&lt;/sup&gt; , мы можем найти соответствующую (удовлетворяющую системе (5)) траекторию
 	x&amp;#773;(t)=(x&lt;sub&gt;0&lt;/sub&gt;(t), x&lt;sub&gt;1&lt;/sub&gt;(t), ... ,x&lt;sub&gt;n&lt;/sub&gt;(t)).
     После этого мы можем находить соответствующие функциям u(t) и x&amp;#773;(t) решения &amp;psi;&amp;#773;(t) = (&amp;psi;&lt;sub&gt;0&lt;/sub&gt;(t),&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)).
     При фиксированных (постоянных) значениях &amp;psi;&amp;#773; функция &amp;#8459; становится функцией параметра u &amp;#8712; U; точную верхнюю грань значений этой функции мы обозначим через &amp;#8499;(&amp;psi;&amp;#773;,x).
-	(ФОРМУЛА).
+          &lt;img src=&quot;:/for/resourses/for7.jpg&quot;/&gt;
     Если точная верхняя грань значений непрерывной функции H достигается в некоторой внутренней точке области U, то &amp;#8499;(&amp;psi;&amp;#773;,x) есть максимум значений функции  &amp;#8459; при фиксированных  &amp;psi;&amp;#773; и x. Поэтому ниже следующую теорему 1, главным содержанием которой является равенство (7), мы называем принципом максимума.
 &lt;/div&gt;
 &lt;div class=&quot;styleris&quot;&gt;
@@ -720,9 +778,9 @@
     Для оптимальности управления u(t) и траектории x&amp;#773;(t) необходимо существование такой ненулевой непрерывной вектор-функции
 &amp;psi;&amp;#773;(t) = (&amp;psi;&lt;sub&gt;0&lt;/sub&gt;(t),&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)), соответствующей функциям u(t) и x&amp;#773;(t), что:
 	1. при любом t, t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt; функция &amp;#8459;(&amp;psi;&amp;#773;(t), x(t), u) переменного u &amp;isin; U достигает в точке u = u(t) максимума
-		(ФОРМУЛА);
+           &lt;img src=&quot;:/for/resourses/for8.jpg&quot;/&gt;
 	2. в конечный момент t&lt;sub&gt;1&lt;/sub&gt; выполнены соотношения 
-		(ФОРМУЛА).
+           &lt;img src=&quot;:/for/resourses/for9.jpg&quot;/&gt;
     Теорема 1 позволяет из всех траекторий, начинающихся в точке x&amp;#773;&lt;sup&gt;0&lt;/sup&gt; и кончающихся в некоторой точке прямой П, и соответствующих им управлений выделить лишь отдельные, удовлетворяющие всем сформулированным условиям (8) и (9).
 &lt;/div&gt;
 &lt;div class=&quot;stylehead&quot;&gt;
@@ -731,17 +789,31 @@
 &lt;div class=&quot;styletext&quot;&gt;
     Рассмотрим принцип максимума для задачи по быстродействию и сформулируем теорему 2 ‒ необходимое условие оптимальности по быстродействию. Имеем: 
 	f&lt;sub&gt;0&lt;/sub&gt;(x,u)=1,
-	(ФОРМУЛА). 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a801.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
 Введем n-мерный вектор 
 	&amp;psi;=(&amp;psi;&lt;sub&gt;1&lt;/sub&gt;,&amp;psi;&lt;sub&gt;2&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;)
  и функцию Гамильтона
-	(ФОРМУЛА).
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a802.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
  Гамильтонова система будет иметь вид
-
-	(ФОРМУЛА)
-
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a803.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
     При фиксированных значениях &amp;psi;, x функция H становится функцией параметра u. Точную верхнюю границу обозначим через
-	(ФОРМУЛА)
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a804.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
 В силу того, что
 	H(&amp;psi;, x, u) =  &amp;#8459;(&amp;psi;&amp;#773;, x , u) - &amp;psi;&lt;sub&gt;0&lt;/sub&gt;,
 мы получаем
@@ -757,11 +829,15 @@
 	&amp;psi;(t) = (&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;2&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)),
 соответствующей функциям u(t)  и x(t) что:
 	1. для всех  t, t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;  функция H(&amp;psi;(t), x(t), u) переменного u &amp;#8712; U достигает в точке u = u(t) максимума при фиксированных &amp;psi;(t) и u(t) 
- 		H(&amp;psi;(t), x(t), u(t)) = M(&amp;psi;(t), x(t)); 
+           &lt;img src=&quot;:/for/resourses/for10.jpg&quot;/&gt;
 	2. в конечный момент времени t&lt;sub&gt;1&lt;/sub&gt; выполнено условие
-		 M(&amp;psi;(t&lt;sub&gt;1&lt;/sub&gt;), x(t&lt;sub&gt;1&lt;/sub&gt;)) &amp;#8805; 0.
+           &lt;img src=&quot;:/for/resourses/for11.jpg&quot;/&gt;
 	Если, например, максимум функции H достигается во внутренней точке области управления u &amp;#8712; U, то для выполнения условия максимума (10) необходимо
-	(ФОРМУЛА), 
+&lt;/div&gt;
+&lt;div class=&quot;styleform&quot;&gt;
+&lt;img src=&quot;:/for/resourses/a805.jpg&quot;/&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;styletext&quot;&gt;
 при u = u(t), j = 1, … ,r. 
 
 &lt;/div&gt;
@@ -784,7 +860,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Candara</family>
+      <family>Times New Roman</family>
      </font>
     </property>
     <property name="text">
