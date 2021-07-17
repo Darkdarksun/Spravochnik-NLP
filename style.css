@@ -1,0 +1,27 @@
+QMainWindow {
+        background-color:#ececec;
+}
+QLabel#label {
+    background-color: rgb(255,255,255);
+}
+
+QLabel#label_2 {
+    font: 75 14pt "Times New Roman";
+    text-align: center;
+}
+
+QPushButton {
+        background-color: transparent;
+        color: black;
+        font: 13pt "Times New Roman";
+}
+
+QPushButton:hover {
+        color: #546E7A;
+        font: 14pt "Times New Roman";
+}
+
+QPushButton:pressed {
+        color: black;
+        font: 13pt "Times New Roman";
+}

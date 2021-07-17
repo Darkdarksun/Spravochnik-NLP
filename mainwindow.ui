@@ -38,7 +38,7 @@
        <x>0</x>
        <y>0</y>
        <width>4499</width>
-       <height>9952</height>
+       <height>10301</height>
       </rect>
      </property>
      <property name="palette">
@@ -649,20 +649,20 @@
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
     Обычно управляющие параметры u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; не могут принимать совершенно произвольные значения, т.к. подчинены некоторым ограничениям. Например, сила u, развиваемая двигателем, не может быть как угодно большой по величине, а подчинена некоторым ограничениям:
-	&amp;alpha; ≤ u ≤ &amp;beta; (&amp;alpha; и &amp;beta; - const).
+	                                                      &amp;alpha; ≤ u ≤ &amp;beta; (&amp;alpha; и &amp;beta; - const).
 Например, при &amp;alpha; = &amp;minus;1, &amp;beta;= 1,
-	&amp;minus;1 ≤ u ≤ 1. 
+	                                                      &amp;minus;1 ≤ u ≤ 1. 
     Это ограничение означает, что двигатель может развивать силу, направленную в любую сторону, но не превосходящую единицу по величине.
     Для объекта, содержащего r управляющих параметров u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; имеем:
     &lt;img src=&quot;:/for/resourses/forxx.jpg&quot;/&gt;                                
     При r = 2, u = {u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;} точки, координаты которых подчинены неравенствам (**), заполняют прямоугольник. 
     При r = 3 неравенства определяют параллелепипед, а в общем случае в заданном пространстве переменных  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  – множество U, т.е. разрешается рассматривать управления u(t) такие, что u(t) &amp;isin; U.
     Множество U называется областью управления. Эта область может иметь сложный вид:
-	&amp;phi;(u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;) = 0
+	                                                      &amp;phi;(u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;) = 0
 или 
-	&amp;upsih;(u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;) ≤ 0
+	                                                      &amp;upsih;(u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;) ≤ 0
     Например, если параметры u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; характеризуют векторную величину на плоскости, модуль которой не превосходит единицу, а направление — произвольное, то 
-	U: u&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; + u&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; - 1 ≤ 0
+	                                                      U: u&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; + u&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; - 1 ≤ 0
 и область управления U определяет круг.
     В дальнейшем будем предполагать, что указание области управления входит в математическое определение объекта. 
     Заметим, что для технических задач особенно важен и характерен случай замкнутого множества U, т.е. случай, когда u может находиться не только внутри U, но и на границе.
@@ -675,7 +675,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
     В фазовом пространстве даны две точки  x&lt;sup&gt;0&lt;/sup&gt;  и  x&lt;sup&gt;1&lt;/sup&gt;. Среди всех допустимых управлений u = u(t), переводящих фазовую точку из положения x&lt;sup&gt;0&lt;/sup&gt; в x&lt;sup&gt;1&lt;/sup&gt; (если такие управления существуют), найти такое, для которого функционал
-      &lt;img src=&quot;:/for/resourses/for1.jpg&quot;/&gt;
+       &lt;img src=&quot;:/for/resourses/for1.jpg&quot;/&gt;
 принимает наименьшее возможное значение.
     Здесь x(t) – решение системы (*) с начальным условием x(t&lt;sub&gt;0&lt;/sub&gt;) = x&lt;sup&gt;0&lt;/sup&gt;, соответствующее управлению u(t),  t&lt;sub&gt;0&lt;/sub&gt; ‒ начальный момент времени, а  t&lt;sub&gt;1&lt;/sub&gt; – момент прохождения через точку  x&lt;sup&gt;1&lt;/sup&gt;. Функция  f&lt;sub&gt;0&lt;/sub&gt;(x, u)  определена и непрерывна вместе с частными производными
 &lt;/div&gt;
@@ -698,12 +698,12 @@
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
     Отметим, что при фиксированных x&lt;sup&gt;0&lt;/sup&gt; и  x&lt;sup&gt;1&lt;/sup&gt;,  t&lt;sub&gt;1&lt;/sub&gt; в интеграле (1) не является фиксированным числом, а зависит от выбора управления u(t), переводящего объект из  x&lt;sup&gt;0&lt;/sup&gt; в  x&lt;sup&gt;1&lt;/sup&gt;. Этот предел  t&lt;sub&gt;1&lt;/sub&gt; определяется из соотношения
-	x(t&lt;sub&gt;1&lt;/sub&gt;) = x&lt;sup&gt;1&lt;/sup&gt;.
+	                                                      x(t&lt;sub&gt;1&lt;/sub&gt;) = x&lt;sup&gt;1&lt;/sup&gt;.
     Управление u(t), дающее решение поставленной задачи, называется оптимальным управлением, соответствующим переходу из положения  x&lt;sup&gt;0&lt;/sup&gt; в  x&lt;sup&gt;1&lt;/sup&gt;.
     Важным частным случаем оптимальной общей задачи является случай, когда 
-	f&lt;sub&gt;0&lt;/sub&gt;(x, u) = 1.
+	                                                      f&lt;sub&gt;0&lt;/sub&gt;(x, u) = 1.
 Тогда (1) будет равен
-	J = t&lt;sub&gt;1&lt;/sub&gt; - t&lt;sub&gt;0&lt;/sub&gt;.
+	                                                      J = t&lt;sub&gt;1&lt;/sub&gt; - t&lt;sub&gt;0&lt;/sub&gt;.
 Это уже рассмотренная нами задача об оптимальном быстродействии.
 &lt;/div&gt;
 &lt;div class=&quot;stylehead&quot;&gt;
@@ -719,7 +719,7 @@
 &lt;div class=&quot;styletext&quot;&gt;
 где f&lt;sub&gt;0&lt;/sub&gt;  – подынтегральная функция из (1).
     Иначе говоря, мы будем рассматривать систему дифференциальных уравнений
-        &lt;img src=&quot;:/for/resourses/for2.jpg&quot;/&gt;
+           &lt;img src=&quot;:/for/resourses/for2.jpg&quot;/&gt;
     Введем новый вектор x&amp;#773; = (x&lt;sub&gt;0&lt;/sub&gt;, x&lt;sub&gt;1&lt;/sub&gt;, ... ,x&lt;sub&gt;n&lt;/sub&gt;) = (x&lt;sub&gt;0&lt;/sub&gt;, x) — это вектор (n+1) – мерного векторного пространства.
 Система (2) будет иметь вид:
 &lt;/div&gt;
@@ -746,11 +746,7 @@
     Система (3) — это сопряженная система, в векторном виде имеет вид:
         &lt;img src=&quot;:/for/resourses/for4.jpg&quot;/&gt;
 где
-&lt;/div&gt;
-&lt;div class=&quot;styleform&quot;&gt;
-&lt;img src=&quot;:/for/resourses/a701.jpg&quot;/&gt; 
-&lt;/div&gt;
-&lt;div class=&quot;styletext&quot;&gt;
+                                                                            &lt;img src=&quot;:/for/resourses/a701.jpg&quot;/&gt; 
     Если мы выберем некоторое допустимое управление u(t), t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;,  при этом имея соответствующую фазовую траекторию x&amp;#773;(t) и систему ДУ (2) с начальным условием x&amp;#773;(t&lt;sub&gt;0&lt;/sub&gt;) = x&amp;#773;&lt;sup&gt;0&lt;/sup&gt;, система ДУ (3) принимает вид
          &lt;img src=&quot;:/for/resourses/for4x.jpg&quot;/&gt;
     Это система (n + 1) обыкновенных линейных ДУ с постоянными коэффициентами. Она линейна и однородна, поэтому при любых начальных условиях &amp;psi;&lt;sub&gt;i&lt;/sub&gt; она допускает единственное решение.  Как и решение x(t) системы (2), решение системы (3) состоит из непрерывных функций &amp;psi;&lt;sub&gt;i&lt;/sub&gt;(t), имеющих всюду непрерывные производные по t.
@@ -763,8 +759,9 @@
     Непосредственно проверяется, что записанные выше системы ДУ могут с помощью этой функции &amp;#8459; быть записаны в виде следующей гамильтоновой системы:
         &lt;img src=&quot;:/for/resourses/for5.jpg&quot;/&gt;
     Взяв произвольное допустимое (кусочно-непрерывное) управление u(t),  t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;, x&amp;#773;(t&lt;sub&gt;0&lt;/sub&gt;) = x&amp;#773;&lt;sup&gt;0&lt;/sup&gt; , мы можем найти соответствующую (удовлетворяющую системе (5)) траекторию
-	x&amp;#773;(t)=(x&lt;sub&gt;0&lt;/sub&gt;(t), x&lt;sub&gt;1&lt;/sub&gt;(t), ... ,x&lt;sub&gt;n&lt;/sub&gt;(t)).
-    После этого мы можем находить соответствующие функциям u(t) и x&amp;#773;(t) решения &amp;psi;&amp;#773;(t) = (&amp;psi;&lt;sub&gt;0&lt;/sub&gt;(t),&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)).
+	                                               x&amp;#773;(t)=(x&lt;sub&gt;0&lt;/sub&gt;(t), x&lt;sub&gt;1&lt;/sub&gt;(t), ... ,x&lt;sub&gt;n&lt;/sub&gt;(t)).
+    После этого мы можем находить соответствующие функциям u(t) и x&amp;#773;(t) решения
+	                                              &amp;psi;&amp;#773;(t) = (&amp;psi;&lt;sub&gt;0&lt;/sub&gt;(t),&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)).
     При фиксированных (постоянных) значениях &amp;psi;&amp;#773; функция &amp;#8459; становится функцией параметра u &amp;#8712; U; точную верхнюю грань значений этой функции мы обозначим через &amp;#8499;(&amp;psi;&amp;#773;,x).
           &lt;img src=&quot;:/for/resourses/for7.jpg&quot;/&gt;
     Если точная верхняя грань значений непрерывной функции H достигается в некоторой внутренней точке области U, то &amp;#8499;(&amp;psi;&amp;#773;,x) есть максимум значений функции  &amp;#8459; при фиксированных  &amp;psi;&amp;#773; и x. Поэтому ниже следующую теорему 1, главным содержанием которой является равенство (7), мы называем принципом максимума.
@@ -788,14 +785,14 @@
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
     Рассмотрим принцип максимума для задачи по быстродействию и сформулируем теорему 2 ‒ необходимое условие оптимальности по быстродействию. Имеем: 
-	f&lt;sub&gt;0&lt;/sub&gt;(x,u)=1,
+	                                                      f&lt;sub&gt;0&lt;/sub&gt;(x,u)=1,
 &lt;/div&gt;
 &lt;div class=&quot;styleform&quot;&gt;
 &lt;img src=&quot;:/for/resourses/a801.jpg&quot;/&gt; 
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
 Введем n-мерный вектор 
-	&amp;psi;=(&amp;psi;&lt;sub&gt;1&lt;/sub&gt;,&amp;psi;&lt;sub&gt;2&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;)
+	                                                      &amp;psi;=(&amp;psi;&lt;sub&gt;1&lt;/sub&gt;,&amp;psi;&lt;sub&gt;2&lt;/sub&gt;, ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;)
  и функцию Гамильтона
 &lt;/div&gt;
 &lt;div class=&quot;styleform&quot;&gt;
@@ -815,18 +812,18 @@
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
 В силу того, что
-	H(&amp;psi;, x, u) =  &amp;#8459;(&amp;psi;&amp;#773;, x , u) - &amp;psi;&lt;sub&gt;0&lt;/sub&gt;,
+	                                         H(&amp;psi;, x, u) =  &amp;#8459;(&amp;psi;&amp;#773;, x , u) - &amp;psi;&lt;sub&gt;0&lt;/sub&gt;,
 мы получаем
-	M(&amp;psi;,x) = &amp;#8499;(&amp;psi;&amp;#773;, x) - &amp;psi;&lt;sub&gt;0&lt;/sub&gt;,
+	                                         M(&amp;psi;,x) = &amp;#8499;(&amp;psi;&amp;#773;, x) - &amp;psi;&lt;sub&gt;0&lt;/sub&gt;,
 и условие теоремы 1 принимает вид
-	H(&amp;psi;(t), x(t), u(t)) = M(&amp;psi;(t), x(t)) = -&amp;psi;&lt;sub&gt;0&lt;/sub&gt; &amp;#8805; 0.
+	                                         H(&amp;psi;(t), x(t), u(t)) = M(&amp;psi;(t), x(t)) = -&amp;psi;&lt;sub&gt;0&lt;/sub&gt; &amp;#8805; 0.
 &lt;/div&gt;
 &lt;div class=&quot;styleris&quot;&gt;
 Теорема 2.
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
     Пусть u(t), t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt; ‒ допустимое управление, переводящее фазовую точку из положения x&lt;sup&gt;0&lt;/sup&gt; в положение  x&lt;sup&gt;1&lt;/sup&gt;, а x(t) ‒ соответствующая траектория такая, что x(t&lt;sub&gt;0&lt;/sub&gt;) = x&lt;sup&gt;0&lt;/sup&gt;, x(t&lt;sub&gt;1&lt;/sub&gt;) = x&lt;sup&gt;1&lt;/sup&gt;. Для оптимальности (по быстродействию) уравнения u(t) и траектории x(t) необходимо существование такой ненулевой непрерывной вектор-функции 
-	&amp;psi;(t) = (&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;2&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)),
+	                                                      &amp;psi;(t) = (&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;2&lt;/sub&gt;(t), &amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)),
 соответствующей функциям u(t)  и x(t) что:
 	1. для всех  t, t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;  функция H(&amp;psi;(t), x(t), u) переменного u &amp;#8712; U достигает в точке u = u(t) максимума при фиксированных &amp;psi;(t) и u(t) 
            &lt;img src=&quot;:/for/resourses/for10.jpg&quot;/&gt;
@@ -852,10 +849,10 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>10</x>
       <y>10</y>
-      <width>191</width>
-      <height>31</height>
+      <width>411</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -864,16 +861,16 @@
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Содержание&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Содержание&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>50</y>
-      <width>252</width>
-      <height>291</height>
+      <x>10</x>
+      <y>60</y>
+      <width>411</width>
+      <height>421</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">

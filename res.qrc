@@ -41,4 +41,7 @@
         <file>resourses/a803.jpg</file>
         <file>resourses/a804.jpg</file>
     </qresource>
+    <qresource prefix="/stylesheets">
+        <file>style.css</file>
+    </qresource>
 </RCC>
