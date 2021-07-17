@@ -64,8 +64,8 @@ void MainWindow::on_pB7_clicked()
 
 void MainWindow::on_pB8_clicked()
 {
-    ui->scrollArea->ensureVisible(0,13084, 20, 1);
-    ui->scrollArea->ensureVisible(0,13084+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,13050, 20, 1);
+    ui->scrollArea->ensureVisible(0,13050+950, 20, 1);
 }
 
 void MainWindow::on_pushButton_clicked()
