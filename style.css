@@ -1,27 +1,155 @@
+/* цвет фона для всего окна */
 QMainWindow {
-        background-color:#ececec;
+        background-color:rgb(236,236,236);
 }
+
+/* фон для label */
 QLabel#label {
     background-color: rgb(255,255,255);
 }
 
+/* установка шрифта текста для label_2 (шрифт, размер, плотность шрифта, выравнивание текста внутри виджета) */
 QLabel#label_2 {
-    font: 75 14pt "Times New Roman";
+    font-family:'Times New Roman';
+    font-size: 14pt;
+    color: rgb(0,0,0);
     text-align: center;
+    font-weight: bolder;
 }
 
+/*  фон для QPushButton (прозрачный), цвет и шрифт текта внутри QPushButton */
 QPushButton {
         background-color: transparent;
-        color: black;
-        font: 13pt "Times New Roman";
+        color: rgb(0,0,0);
+        font-family:'Times New Roman';
+        font-size: 13pt;
 }
 
+/* настройки QPushButton при наведении мыши */
 QPushButton:hover {
-        color: #546E7A;
-        font: 14pt "Times New Roman";
+        color: rgb(0,73,83);
+        font-family:'Times New Roman';
+        font-size: 14pt;
 }
 
+/* настройки QPushButton при нажатии мыши */
 QPushButton:pressed {
-        color: black;
-        font: 13pt "Times New Roman";
+        color: rgb(0,0,0);
+        font-family:'Times New Roman';
+        font-size: 15pt;
+        font-weight: bolder;
+}
+
+
+QScrollBar:vertical {
+        border: 1px transparent grey;
+        margin: 20px 0px 20px 0px;
+}
+/* Кнопка для добавления линии в QScrollBar */
+QScrollBar::add-line:vertical {
+        border: 1px solid;
+        border-color: rgb(207,207,207);
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+        background: rgb(255, 255, 255);
+        height: 20px;
+        subcontrol-position: bottom;
+        subcontrol-origin: margin;
+}
+
+/* Кнопка для добавления линии в QScrollBar при наведении мыши */
+QScrollBar::add-line:vertical:hover {
+        border: 1px solid;
+        border-color: rgb(0,73,83);
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+        background: rgb(255, 255, 255);
+        height: 20px;
+        subcontrol-position: bottom;
+        subcontrol-origin: margin;
+}
+
+/* Кнопка для добавления линии в QScrollBar при нажатии мыши */
+QScrollBar::add-line:vertical:pressed {
+        border: 1px solid grey;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border-top-left-radius: 7px;
+        background: rgb(231,231,231);
+        height: 20px;
+        subcontrol-position: bottom;
+        subcontrol-origin: margin;
+}
+
+/* Кнопка для вычитания линии в QScrollBar */
+QScrollBar::sub-line:vertical {
+        border: 1px solid rgb(207,207,207);
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        background: rgb(255, 255, 255);
+        height: 20px;
+        subcontrol-position: top;
+        subcontrol-origin: margin;
+}
+
+/* Кнопка для вычитания линии в QScrollBar при наведении мыши */
+QScrollBar::sub-line:vertical:hover {
+        border: 1px solid rgb(0,73,83);
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        background: rgb(255, 255, 255);
+        height: 20px;
+        subcontrol-position: top;
+        subcontrol-origin: margin;
+}
+
+/* Кнопка для вычитания линии в QScrollBar при нажатии мыши */
+QScrollBar::sub-line:vertical:pressed {
+        border: 1px solid grey;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        background: rgb(231,231,231);
+        height: 20px;
+        subcontrol-position: top;
+        subcontrol-origin: margin;
+}
+
+/* Рукоятка (ползунок) QScrollBar */
+QScrollBar::handle:vertical {
+        background: rgb(253,253,253);
+        border: 1px solid rgb(207,207,207);
+        border-radius: 7px;
+        min-height: 25px;
+}
+
+/* Рукоятка (ползунок) QScrollBar при наведении мыши */
+QScrollBar::handle:vertical:hover {
+        background: rgb(253,253,253);
+        border: 1px solid rgb(0,73,83);
+        border-radius: 7px;
+        min-height: 25px;
+}
+
+/* Стрелка вверх в QScrollBar */
+QScrollBar::up-arrow:vertical {
+        border: 1px transparent grey;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        width: 6px;
+        height: 6px;
+        background: rgb(230,230,230);
+}
+
+/* Стрелка вниз в QScrollBar */
+QScrollBar::down-arrow:vertical {
+        border: 1px transparent grey;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        width: 6px;
+        height: 6px;
+        background: rgb(230,230,230);
 }

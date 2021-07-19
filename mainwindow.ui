@@ -20,6 +20,448 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Light">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>70</red>
+         <green>72</green>
+         <blue>73</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>58</red>
+         <green>60</green>
+         <blue>61</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Dark">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Mid">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>31</red>
+         <green>32</green>
+         <blue>32</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="BrightText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Shadow">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="AlternateBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>220</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="PlaceholderText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="128">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Light">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>70</red>
+         <green>72</green>
+         <blue>73</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>58</red>
+         <green>60</green>
+         <blue>61</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Dark">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Mid">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>31</red>
+         <green>32</green>
+         <blue>32</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="BrightText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Shadow">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="AlternateBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>220</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="PlaceholderText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="128">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Light">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>70</red>
+         <green>72</green>
+         <blue>73</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>58</red>
+         <green>60</green>
+         <blue>61</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Dark">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Mid">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>31</red>
+         <green>32</green>
+         <blue>32</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="BrightText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>23</red>
+         <green>24</green>
+         <blue>24</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Shadow">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="AlternateBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>47</red>
+         <green>48</green>
+         <blue>49</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipBase">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>220</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ToolTipText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="PlaceholderText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="128">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
@@ -38,7 +480,7 @@
        <x>0</x>
        <y>0</y>
        <width>4499</width>
-       <height>10301</height>
+       <height>10401</height>
       </rect>
      </property>
      <property name="palette">
@@ -556,7 +998,8 @@
     Сказанное выше делает естественным следующее математическое описание управляемого объекта: состояние объекта задаётся (в каждый момент времени) n числами x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;, которые называются фазовыми координатами.
     Движение объекта заключается, с математической точки зрения, в том, что его состояние с течением времени изменяется, т.е x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt; являются переменными величинами (функциями времени). Это движение объекта происходит не самопроизвольно, им можно управлять. Объект снабжён «рулями», положение которых в каждый момент времени характеризуется r числами u&lt;sub&gt;1&lt;/sub&gt;,u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt; r&lt;/sub&gt;. Эти числа называются управляющими параметрами.
     Рулями можно «манипулировать», т.е. по своему желанию менять параметры u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  с течением времени. Что касается  x&lt;sub&gt;1&lt;/sub&gt;(t), x&lt;sub&gt;2&lt;/sub&gt;(t), ... , x&lt;sub&gt;n&lt;/sub&gt;(t) то они не в полной мере зависят от нашего желания. 
-    Мы будем предполагать, что, зная фазовые состояния объекта в начальный момент времени  t&lt;sub&gt;0&lt;/sub&gt;  и выбрав направляющие функции  u&lt;sub&gt;1&lt;/sub&gt;(t),u&lt;sub&gt;2&lt;/sub&gt;(t), ... , u&lt;sub&gt;r&lt;/sub&gt;(t)  (для t &gt; t&lt;sub&gt;0&lt;/sub&gt;), мы сможем математически точно рассчитать поведение объекта для всех   t &gt; t&lt;sub&gt;0&lt;/sub&gt;. То есть сможем найти функции x&lt;sub&gt;1&lt;/sub&gt;(t), x&lt;sub&gt;2&lt;/sub&gt;(t), ... , x&lt;sub&gt;n&lt;/sub&gt;(t), характеризующие изменение фазовых координат с течением времени.
+    Мы будем предполагать, что, зная фазовые состояния объекта в начальный момент времени  t&lt;sub&gt;0&lt;/sub&gt;  и выбрав направляющие функции  u&lt;sub&gt;1&lt;/sub&gt;(t),u&lt;sub&gt;2&lt;/sub&gt;(t), ... , u&lt;sub&gt;r&lt;/sub&gt;(t)  (для t &gt; t&lt;sub&gt;0&lt;/sub&gt;), мы сможем математически точно рассчитать поведение объекта для всех   t &gt; t&lt;sub&gt;0&lt;/sub&gt;. То есть сможем найти функции 
+x&lt;sub&gt;1&lt;/sub&gt;(t), x&lt;sub&gt;2&lt;/sub&gt;(t), ... , x&lt;sub&gt;n&lt;/sub&gt;(t), характеризующие изменение фазовых координат с течением времени.
     Величины u&lt;sub&gt;1&lt;/sub&gt;,u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt; r&lt;/sub&gt; удобно считать координатами некоторого вектора u = {u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;}, который также называют управляющим вектором, а x = {x&lt;sub&gt;1&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;}  — точкой n-мерного пространства с координатами  x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;. 
     Это n-мерное пространство, в котором в виде точек изображаются фазовые состояния объекта, называется фазовым пространством.
     Чтобы полностью задать движение объекта, надо задать его фазовое состояние в начальный момент времени  t&lt;sub&gt;0&lt;/sub&gt; и выбрать управляющие функции  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  для   t &gt; t&lt;sub&gt;0&lt;/sub&gt; (выбрать некоторую функцию u(t) = {u&lt;sub&gt;1&lt;/sub&gt;(t) ... , u&lt;sub&gt;r&lt;/sub&gt;(t)} Эту функцию u(t) будем называть управлением. 
@@ -567,7 +1010,8 @@
 2.Задача управления
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
-    Часто встречается следующая задача, связанная с управляемыми объектами: в начальный момент времени t&lt;sub&gt;0&lt;/sub&gt; объект находится в фазовом состоянии   x&lt;sup&gt;0&lt;/sup&gt;. Требуется выбрать такое управление u(t), которое переведёт объект в заранее заданное конечное фазовое состояние  x&lt;sup&gt;1&lt;/sup&gt; = {x&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;1&lt;/sup&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;&lt;sup&gt;1&lt;/sup&gt;}  (отличное от x&lt;sup&gt;0&lt;/sup&gt;). Различные варианты перехода из точки  x&lt;sup&gt;0&lt;/sup&gt;  в точку  x&lt;sup&gt;1&lt;/sup&gt;  представлены на рис. 2.
+    Часто встречается следующая задача, связанная с управляемыми объектами: в начальный момент времени t&lt;sub&gt;0&lt;/sub&gt; объект находится в фазовом состоянии   x&lt;sup&gt;0&lt;/sup&gt;. Требуется выбрать такое управление u(t), которое переведёт объект в заранее заданное конечное фазовое состояние
+x&lt;sup&gt;1&lt;/sup&gt; = {x&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;1&lt;/sup&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;&lt;sup&gt;1&lt;/sup&gt;}  (отличное от x&lt;sup&gt;0&lt;/sup&gt;). Различные варианты перехода из точки  x&lt;sup&gt;0&lt;/sup&gt;  в точку  x&lt;sup&gt;1&lt;/sup&gt;  представлены на рис. 2.
 &lt;/div&gt;
 &lt;div class=&quot;styleris&quot;&gt;
 &lt;img src=&quot;:/images/im2.jpg&quot;/&gt;&lt;br&gt;
@@ -617,17 +1061,13 @@
 &lt;img src=&quot;:/for/resourses/a303.jpg&quot;/&gt; 
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
-где  f&lt;sub&gt;1&lt;/sub&gt;, ... , f&lt;sub&gt;n&lt;/sub&gt; ‒ некоторые функции, определяемые внутренним устройством объекта (например:  f&lt;sub&gt;1&lt;/sub&gt; = x&lt;sub&gt;2&lt;/sub&gt;; f&lt;sub&gt;2&lt;/sub&gt; = - k/m x&lt;sub&gt;1&lt;/sub&gt; - b/m x&lt;sub&gt;2&lt;/sub&gt; + 1/m u).
+где  f&lt;sub&gt;1&lt;/sub&gt;, ... ,f&lt;sub&gt;n&lt;/sub&gt; ‒ некоторые функции, определяемые внутренним устройством объекта &lt;img src=&quot;:/for/resourses/a303x.jpg&quot;/&gt;
     В векторной форме систему дифференциальных уравнений можно записать в виде: 
-&lt;/div&gt;
-&lt;div class=&quot;styleform&quot;&gt;
-&lt;img src=&quot;:/for/resourses/a304.jpg&quot;/&gt; 
-&lt;/div&gt;
-&lt;div class=&quot;styletext&quot;&gt; 
+                                                             &lt;img src=&quot;:/for/resourses/a304.jpg&quot;/&gt;
 где x ‒ вектор с координатами (x&lt;sub&gt;1&lt;/sub&gt;, ... , x&lt;sub&gt;n&lt;/sub&gt;), u‒ вектор с координатами ( u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;).
-    Эту систему дифференциальных уравнений невозможно решить, не зная, каким образом будут меняться с течением времени управляющие параметры  u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;. Напротив, зная поведение величин u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;, т.е. зная управляющие функции  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; для  t &gt; t&lt;sub&gt;0&lt;/sub&gt;, мы сможем с помощью системы 
-          &lt;img src=&quot;:/for/resourses/forx.jpg&quot;/&gt;
-или
+    Эту систему дифференциальных уравнений невозможно решить, не зная, каким образом будут меняться с течением времени управляющие параметры  u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;. Напротив, зная поведение величин u&lt;sub&gt;1&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;, т.е. зная управляющие функции  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; для  t &gt; t&lt;sub&gt;0&lt;/sub&gt;, мы сможем с помощью системы                 
+                                            &lt;img src=&quot;:/for/resourses/forx.jpg&quot;/&gt;         
+или 
 &lt;/div&gt;
 &lt;div class=&quot;styleform&quot;&gt;
 &lt;img src=&quot;:/for/resourses/a305.jpg&quot;/&gt; 
@@ -654,7 +1094,7 @@
 	                                                      &amp;minus;1 ≤ u ≤ 1. 
     Это ограничение означает, что двигатель может развивать силу, направленную в любую сторону, но не превосходящую единицу по величине.
     Для объекта, содержащего r управляющих параметров u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt; имеем:
-    &lt;img src=&quot;:/for/resourses/forxx.jpg&quot;/&gt;                                
+                                                               &lt;img src=&quot;:/for/resourses/forxx.jpg&quot;/&gt;                            
     При r = 2, u = {u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;} точки, координаты которых подчинены неравенствам (**), заполняют прямоугольник. 
     При r = 3 неравенства определяют параллелепипед, а в общем случае в заданном пространстве переменных  u&lt;sub&gt;1&lt;/sub&gt;, u&lt;sub&gt;2&lt;/sub&gt;, ... , u&lt;sub&gt;r&lt;/sub&gt;  – множество U, т.е. разрешается рассматривать управления u(t) такие, что u(t) &amp;isin; U.
     Множество U называется областью управления. Эта область может иметь сложный вид:
@@ -668,13 +1108,15 @@
     Заметим, что для технических задач особенно важен и характерен случай замкнутого множества U, т.е. случай, когда u может находиться не только внутри U, но и на границе.
     Управления могут мгновенно переключить рули из одного положения в другое от -1 до +1. В соответствии с этим будем рассматривать не только непрерывные, но и произвольные кусочно-непрерывные управления u(t), т.е. управления, состоящие из конечного числа непрерывных кусков.
     Функция u(t) называется кусочно-непрерывной, если она непрерывна для всех рассматриваемых t, за исключением тех моментов времени, где есть разрыв первого рода. Предполагается, что в каждой точке разрыва τ значение функции равно пределу справа.
-    Условимся называть допустимым управлением всякую кусочно-непрерывную функцию u(t),  t&lt;sub&gt;0&lt;/sub&gt; ≤ t ≤  t&lt;sub&gt;1&lt;/sub&gt;  со значениями в области управления U, непрерывную на концах отрезка, на котором она задана.
+    Условимся называть допустимым управлением всякую кусочно-непрерывную функцию u(t),
+t&lt;sub&gt;0&lt;/sub&gt; ≤ t ≤  t&lt;sub&gt;1&lt;/sub&gt;  со значениями в области управления U, непрерывную на концах отрезка, на котором она задана.
 &lt;/div&gt;
 &lt;div class=&quot;stylehead&quot;&gt;
 5. Общая постановкак задачи ОУ
 &lt;/div&gt;
 &lt;div class=&quot;styletext&quot;&gt;
-    В фазовом пространстве даны две точки  x&lt;sup&gt;0&lt;/sup&gt;  и  x&lt;sup&gt;1&lt;/sup&gt;. Среди всех допустимых управлений u = u(t), переводящих фазовую точку из положения x&lt;sup&gt;0&lt;/sup&gt; в x&lt;sup&gt;1&lt;/sup&gt; (если такие управления существуют), найти такое, для которого функционал
+    В фазовом пространстве даны две точки  x&lt;sup&gt;0&lt;/sup&gt;  и  x&lt;sup&gt;1&lt;/sup&gt;. Среди всех допустимых управлений
+u = u(t), переводящих фазовую точку из положения x&lt;sup&gt;0&lt;/sup&gt; в x&lt;sup&gt;1&lt;/sup&gt; (если такие управления существуют), найти такое, для которого функционал
        &lt;img src=&quot;:/for/resourses/for1.jpg&quot;/&gt;
 принимает наименьшее возможное значение.
     Здесь x(t) – решение системы (*) с начальным условием x(t&lt;sub&gt;0&lt;/sub&gt;) = x&lt;sup&gt;0&lt;/sup&gt;, соответствующее управлению u(t),  t&lt;sub&gt;0&lt;/sub&gt; ‒ начальный момент времени, а  t&lt;sub&gt;1&lt;/sub&gt; – момент прохождения через точку  x&lt;sup&gt;1&lt;/sup&gt;. Функция  f&lt;sub&gt;0&lt;/sub&gt;(x, u)  определена и непрерывна вместе с частными производными
@@ -758,7 +1200,7 @@
 &lt;div class=&quot;styletext&quot;&gt;
     Непосредственно проверяется, что записанные выше системы ДУ могут с помощью этой функции &amp;#8459; быть записаны в виде следующей гамильтоновой системы:
         &lt;img src=&quot;:/for/resourses/for5.jpg&quot;/&gt;
-    Взяв произвольное допустимое (кусочно-непрерывное) управление u(t),  t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;, x&amp;#773;(t&lt;sub&gt;0&lt;/sub&gt;) = x&amp;#773;&lt;sup&gt;0&lt;/sup&gt; , мы можем найти соответствующую (удовлетворяющую системе (5)) траекторию
+    Взяв произвольное допустимое (кусочно-непрерывное) управление u(t),  t&lt;sub&gt;0&lt;/sub&gt; &amp;#8804; t &amp;#8804; t&lt;sub&gt;1&lt;/sub&gt;, x&amp;#773;(t&lt;sub&gt;0&lt;/sub&gt;) = x&amp;#773;&lt;sup&gt;0&lt;/sup&gt;, мы можем найти соответствующую (удовлетворяющую системе (5)) траекторию
 	                                               x&amp;#773;(t)=(x&lt;sub&gt;0&lt;/sub&gt;(t), x&lt;sub&gt;1&lt;/sub&gt;(t), ... ,x&lt;sub&gt;n&lt;/sub&gt;(t)).
     После этого мы можем находить соответствующие функциям u(t) и x&amp;#773;(t) решения
 	                                              &amp;psi;&amp;#773;(t) = (&amp;psi;&lt;sub&gt;0&lt;/sub&gt;(t),&amp;psi;&lt;sub&gt;1&lt;/sub&gt;(t), ... ,&amp;psi;&lt;sub&gt;n&lt;/sub&gt;(t)).
@@ -1026,19 +1468,6 @@
       </widget>
      </item>
     </layout>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>1510</x>
-      <y>20</y>
-      <width>21</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>X</string>
-    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

@@ -32,8 +32,6 @@ private slots:
 
     void on_pB8_clicked();
 
-    void on_pushButton_clicked();
-
 private:
     Ui::MainWindow *ui;
 };

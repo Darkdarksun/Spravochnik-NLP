@@ -40,6 +40,7 @@
         <file>resourses/a802.jpg</file>
         <file>resourses/a803.jpg</file>
         <file>resourses/a804.jpg</file>
+        <file>resourses/a303x.jpg</file>
     </qresource>
     <qresource prefix="/stylesheets">
         <file>style.css</file>

@@ -12,7 +12,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->label->setWordWrap(true);
     ui->label->setAlignment(Qt::AlignJustify);
     ui->scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
-
 }
 
 MainWindow::~MainWindow()
@@ -28,48 +27,43 @@ void MainWindow::on_pB1_clicked()
 
 void MainWindow::on_pB2_clicked()
 {
-    ui->scrollArea->ensureVisible(0,2200, 20, 1);
-    ui->scrollArea->ensureVisible(0,2200+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,2205, 20, 1);
+    ui->scrollArea->ensureVisible(0,2205+950, 20, 1);
 }
 
 void MainWindow::on_pB3_clicked()
 {
-    ui->scrollArea->ensureVisible(0,3180, 20, 1);
-    ui->scrollArea->ensureVisible(0,3180+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,3195, 20, 1);
+    ui->scrollArea->ensureVisible(0,3195+950, 20, 1);
 }
 
 void MainWindow::on_pB4_clicked()
 {
-    ui->scrollArea->ensureVisible(0,6333, 20, 1);
-    ui->scrollArea->ensureVisible(0,6333+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,6270, 20, 1);
+    ui->scrollArea->ensureVisible(0,6270+950, 20, 1);
 }
 
 void MainWindow::on_pB5_clicked()
 {
-    ui->scrollArea->ensureVisible(0,8020, 20, 1);
-    ui->scrollArea->ensureVisible(0,8020+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,7950, 20, 1);
+    ui->scrollArea->ensureVisible(0,7950+950, 20, 1);
 }
 
 void MainWindow::on_pB6_clicked()
 {
-    ui->scrollArea->ensureVisible(0,9459, 20, 1);
-    ui->scrollArea->ensureVisible(0,9459+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,9389, 20, 1);
+    ui->scrollArea->ensureVisible(0,9389+950, 20, 1);
 }
 
 void MainWindow::on_pB7_clicked()
 {
-    ui->scrollArea->ensureVisible(0,10479, 20, 1);
-    ui->scrollArea->ensureVisible(0,10479+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,10409, 20, 1);
+    ui->scrollArea->ensureVisible(0,10409+950, 20, 1);
 }
 
 void MainWindow::on_pB8_clicked()
 {
-    ui->scrollArea->ensureVisible(0,13050, 20, 1);
-    ui->scrollArea->ensureVisible(0,13050+950, 20, 1);
+    ui->scrollArea->ensureVisible(0,12987, 20, 1);
+    ui->scrollArea->ensureVisible(0,12987+950, 20, 1);
 }
 
-void MainWindow::on_pushButton_clicked()
-{
-    int pixels=ui->scrollArea->verticalScrollBar()->value();//проверка положения скроллбара для настройки глав
-    qDebug()<<pixels;
-}
