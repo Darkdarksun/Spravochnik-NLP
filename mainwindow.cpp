@@ -74,3 +74,36 @@ void MainWindow::on_pB8_clicked()
     ui->scrollArea->ensureVisible(0,12987+winsize, 20, 1);
 }
 
+
+void MainWindow::on_pushButton_clicked()
+{
+    if (check==0){
+        int winsize=ui->centralwidget->height()+25;
+        ui->label_2->hide();
+        ui->pB1->hide();
+        ui->pB2->hide();
+        ui->pB3->hide();
+        ui->pB4->hide();
+        ui->pB5->hide();
+        ui->pB6->hide();
+        ui->pB7->hide();
+        ui->pB8->hide();
+        ui->scrollArea->move(0,0);
+        ui->pushButton->setText(">>");
+        check=1;
+        this->resize(900,winsize);
+    }
+    else {
+        ui->label_2->show();
+        ui->pB1->show();
+        ui->pB2->show();
+        ui->pB3->show();
+        ui->pB4->show();
+        ui->pB5->show();
+        ui->pB6->show();
+        ui->pB7->show();
+        ui->pB8->show();
+        ui->pushButton->setText("<<");
+        check=0;
+    }
+}
