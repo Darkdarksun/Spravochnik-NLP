@@ -15,7 +15,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    bool check=0;
+    int check=0;
 
 private slots:
     void on_pB1_clicked();

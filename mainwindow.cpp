@@ -74,11 +74,13 @@ void MainWindow::on_pB8_clicked()
     ui->scrollArea->ensureVisible(0,12987+winsize, 20, 1);
 }
 
+int save;
 
 void MainWindow::on_pushButton_clicked()
 {
+    int winsize=ui->centralwidget->height()+25;
     if (check==0){
-        int winsize=ui->centralwidget->height()+25;
+        save = this->width();
         ui->label_2->hide();
         ui->pB1->hide();
         ui->pB2->hide();
@@ -89,11 +91,17 @@ void MainWindow::on_pushButton_clicked()
         ui->pB7->hide();
         ui->pB8->hide();
         ui->scrollArea->move(0,0);
-        ui->pushButton->setText(">>");
         check=1;
-        this->resize(900,winsize);
     }
-    else {
+
+    else if(check==1) {
+        this->resize(900,winsize);
+        ui->pushButton->setText(">>");
+        check=2;
+    }
+
+    else if(check==2) {
+
         ui->label_2->show();
         ui->pB1->show();
         ui->pB2->show();
@@ -105,5 +113,10 @@ void MainWindow::on_pushButton_clicked()
         ui->pB8->show();
         ui->pushButton->setText("<<");
         check=0;
+        this->resize(save,winsize);
+        if(this->x()+save>1920){
+            this->move(1920-save,this->y());
+        }
     }
 }
+
